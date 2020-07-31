@@ -3730,12 +3730,16 @@ button:focus {
 
 .client_slider .item {
   line-height: 70px;
+  border: 1px solid #1724601f;
 }
 
 .client_slider .item img {
-  line-height: 70px;
+  line-height: 40px;
   display: inline-block;
   width: auto;
+  /* height: 70px; */
+  padding: 10px 30px;
+  box-shadow: 0 0 11px 0 rgba(6, 22, 58, 0.14);
 }
 
 .tt_client_area.tt_7 {
@@ -10493,6 +10497,7 @@ button:focus {
   line-height: 34px;
   font-size: 16.92px;
   color: #858585;
+  margin-bottom: 10px;
 }
 
 .news_widget .nav li:last-child {
